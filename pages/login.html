@@ -25,56 +25,73 @@
             <a href="./signup.html" class="signup-btn">Sign Up</a>
         </div>
     </nav>
- 
-     <!-- LEFT SIDE (Branding) -->
-    <div class="login-left">
-        <h1>Blush & Bloom 🌸</h1>
-        <br>
-        <p>Glow naturally with skincare made for you.</p>
+
+<!-- Hero Section -->
+<section class="hero">
+
+    <!-- LEFT -->
+    <div class="left">
+        <h1>FLORAL <span>DELIGHTS</span></h1>
+
+        <p>
+           Our love for flowers blossomed into a passion for creating stunning arrangements that bring joy and beauty to people's lives. For over a decade, our dedicated team of florists has been crafting unique and enchanting bouquets for every occasion.
+        </p>
+
+        <div class="buttons">
+            <!-- Added Links -->
+            <a href="./product.html">
+                <button class="btn">Shop Now</button>
+            </a>
+
+            <a href="./about.html">
+                <button class="btn-outline">Learn More</button>
+            </a>
+        </div>
     </div>
 
-    <!-- RIGHT SIDE (Form) -->
-    <div class="login-right">
-        <form id="loginForm">
-           <center><h2>Login</h2></center> 
+    <!-- RIGHT LOGIN -->
+    <div class="right">
+        <div class="login-card">
+            <h3>Login</h3>
 
-            <!-- Email -->
-            <div class="input-group">
-                <input type="email" id="email" required>
-                <label>Email Address</label>
-                <i class="fa fa-envelope"></i>
-            </div>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required>
 
-            <!-- Password -->
-            <div class="input-group">
-                <input type="password" id="password" required>
-                <label>Password</label>
-                <i class="fa fa-lock"></i>
-                <span class="toggle" onclick="togglePassword()">👁</span>
-            </div>
-
-            <!-- Options -->
             <div class="options">
-                <label><input type="checkbox"> Remember me</label>
-                <a href="signup.html">Forgot Password?</a>
+                <label>
+                    <input type="checkbox" id="remember">Remember Me
+                </label>
+
+                <br>
+                <!-- Fixed Link -->
+                <a href="./signup.html">Forgot Password?</a>
             </div>
 
-            <!-- Error -->
-            <p class="error" id="errorMsg"></p>
+ <a href="./routine.html">
+            <button class="login" onclick="login()" required>Login</button></a>
 
-            <!-- Button -->
-            <button type="submit"><a href="about.html"></a>Login</button>
             <br>
-<br>
-            <p class="signup-text">
-                Don’t have an account? <a href="signup.html">Sign Up</a>
-            </p>
             <br>
-            <br></b>
-        </form>
+            <!-- New Extra Links -->
+            <div class="extra-links">
+                <p>Don't have an account? 
+                    <a href="./signup.html">Sign Up</a>
+                </p>
+                
+            </div>
+            <script>
+function login() {
+    alert("Login button clicked!");
+}
+</script>
+
+            <p id="message" style="margin-top:10px;"></p>
+        </div>
     </div>
 
-</div>
+</section>
+
+
 
 <script src="../js/login.js"></script>
 </body>
