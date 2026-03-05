@@ -78,6 +78,8 @@ body {
     background-color: #b0256a;
 }
 
+
+
 .footer {
     background-color: #f8c8dc;   
     color: #333;
@@ -89,6 +91,11 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 40px;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 230px;
 }
 
 .footer-logo {
@@ -158,4 +165,21 @@ body {
     border-top: 1px solid #f3b3cf;
     padding-top: 15px;
     font-size: 13px;
+}
+
+@media (max-width: 768px) {
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
