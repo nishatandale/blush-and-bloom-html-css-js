@@ -1,102 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Blush & Bloom</title>
-   <link rel="stylesheet" href="../css/login.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+
 </head>
+
 <body>
-      <nav class="navbar">
+    <nav class="navbar">
         <div class="nav-left">
-            <img src="../images/logo.jpeg" alt="Logo" class="logo">
+            <img src="../logo.jpeg" alt="Logo" class="logo">
             <h2 class="brand">Blush & Bloom</h2>
         </div>
 
         <ul class="nav-links">
             <li><a href="../index.html">Home</a></li>
-            <li><a href="../pages/product.html">Products</a></li>
-            <li><a href="../pages/routine.html">Routine</a></li>
-            <li><a href="../pages/about.html">About</a></li>
-            <li><a href="../pages/contact.html">Contact</a></li>
-            <li><a href="../pages/feedback.html">Feedback</a></li>
+            <li><a href="../product.html">Products</a></li>
+            <li><a href="../routine.html">Routine</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+            <li><a href="../feedback.html">Feedback</a></li>
         </ul>
 
         <div class="auth-buttons">
-            <a href="../pages/login.html" class="login-btn">Login</a>
-            <a href="../pages/signup.html" class="signup-btn">Sign Up</a>
+            <a href="../login.html" class="login-btn">Login</a>
+            <a href="../signup.html" class="signup-btn">Sign Up</a>
         </div>
     </nav>
 
-<section class="hero">
+    <section class="login-section">
+        <div class="login-box">
 
-    <div class="left">
-        <h1>FLORAL <span>DELIGHTS</span></h1>
+            <h2 class="login-title">Welcome Back</h2>
+            <p class="login-subtitle">Login to Blush & Bloom</p>
 
-        <p>
-           Our love for flowers blossomed into a passion for creating stunning arrangements that bring joy and beauty to people's lives. For over a decade, our dedicated team of florists has been crafting unique and enchanting bouquets for every occasion.
-        </p>
+            <form id="loginForm">
 
-        <div class="buttons">
-         
-            <a href="./product.html">
-                <button class="btn">Shop Now</button>
-            </a>
+                <input type="email" id="email" placeholder="Enter your email" required>
 
-            <a href="./about.html">
-                <button class="btn-outline">Learn More</button>
-            </a>
-        </div>
-    </div>
+                <input type="password" id="password" placeholder="Enter your password" required>
 
+                <button type="submit" class="login-btn">Login</button>
 
-    <div class="right">
-        <div class="login-card">
-            <h3>Login</h3>
-
-            <input type="email" id="email" placeholder="Email" required>
-            <input type="password" id="password" placeholder="Password" required>
-
-            <div class="options">
-                <label>
-                    <input type="checkbox" id="remember">Remember Me
-                </label>
-
-                <br>
-              
-                <a href="./signup.html">Forgot Password?</a>
-            </div>
-
- <a href="../index.html">
-            <button class="login" onclick="login()" required>Login</button></a>
-
-            <br>
-            <br>
-          
-            <div class="extra-links">
-                <p>Don't have an account? 
-                    <a href="./signup.html">Sign Up</a>
+                <p class="signup-link">
+                    Don't have an account?
+                    <a href="signup.html">Sign Up</a>
                 </p>
-                
-            </div>
-            <script>
-function login() {
-    alert("Login button clicked!");
-}
-</script>
 
-            <p id="message" style="margin-top:10px;"></p>
+            </form>
         </div>
-    </div>
+    </section>
+    <script src="../js/login.js"></script>
 
-</section>
-
-<script src="../js/login.js"></script>
-</body>
-</html>
-    
-<footer class="footer">
+    <footer class="footer">
 
         <div class="footer-container">
             <div class="footer-col">
@@ -154,7 +115,9 @@ function login() {
                     </a>
 
             </div>
+
         </div>
     </footer>
 </body>
+
 </html>
