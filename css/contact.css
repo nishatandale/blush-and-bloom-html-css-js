@@ -40,15 +40,24 @@ input,textarea {
     justify-content: center;
 }
 
-button{
-    background: #ff5fa2;
-    color: white;
+.btn{
+    background: #fab9d4;
+    color: rgb(0, 0, 0);
     border: none;
     padding: 12px;
     margin-top: 25px;
     width: 100%;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.btn:hover{
+    background: #ff5fa2;
+    transition: 0.3s;
+    color: white;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    transform: translateY(-2px);
 }
 
 
