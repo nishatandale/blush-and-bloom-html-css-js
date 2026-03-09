@@ -282,7 +282,6 @@ body {
     flex-direction: column;
 }
 
-/* Shop By Concern Section */
 .shop-by-concern {
     padding: 50px 5%;
     background-color: #fff;
@@ -303,7 +302,7 @@ body {
 }
 
 .concern-card {
-    background-color: ; /* Light cream background */
+    background-color: #FFEFF1 ; 
     border-radius: 15px;
     overflow: hidden;
     display: flex;
@@ -338,7 +337,7 @@ body {
     display: inline-block;
     width: 35px;
     height: 35px;
-    background-color: #7a2a2a; /* Dark reddish brown like the image */
+    background-color: #7a2a2a; 
     color: white;
     text-align: center;
     line-height: 35px;
@@ -354,10 +353,10 @@ body {
     display: block;
 }
 
-/* For smaller screens */
 @media (max-width: 600px) {
     .concern-container {
         grid-template-columns: 1fr;
     }
 }
+
 
