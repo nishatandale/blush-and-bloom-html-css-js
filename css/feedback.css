@@ -1,0 +1,27 @@
+body{
+font-family: Arial;
+background:#ffe6eb;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.container{
+    height: 400px;
+    flex-wrap: wrap;
+    display: flex;
+    width:650px;
+    margin: auto;
+    background: white;
+    padding: 50px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    
+}
+
+.left{
+
+}
