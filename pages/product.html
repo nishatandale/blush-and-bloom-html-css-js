@@ -34,70 +34,108 @@
 
    <section class="slider">
 
-<img src="./../images/slide1.webp" class="slide active">
-<img src="./../images/slide2.webp" class="slide">
-<img src="./../images/slide3.webp" class="slide">
-<img src="./../images/slide4.webp" class="slide">
-<img src="./../images/slide5.webp" class="slide">
-<img src="./../images/slide6.webp" class="slide">
+<img src="./../images/pro-slider0.jpeg" class="slide active">
+<img src="./../images/pro-slider1.webp" class="slide">
+<img src="./../images/pro-slider2.webp" class="slide">
+<img src="./../images/pro-slider3.jpeg" class="slide">
+<img src="./../images/pro-slider4.jpeg" class="slide">
+<img src="./../images/pro-slider5.webp" class="slide">
 </section>
 
-<div class="search">
-<input type="text" id="searchBar" placeholder="Search product..." onkeyup="searchProduct()">
-</div>
 
-<div class="container" id="productList">
+<h1 class="title">Most Loved Deals</h1>
+<div class="search-box">
 
-<div class="card"><img src="./../images/face wash.png"><h3>Face Wash</h3><p class="price">₹199</p><button>Add to Cart</button></div>
-
-<div class="card"><img src="./../images/aloevelagal.png"><h3>Aloe Vera Gel</h3><p class="price">₹249</p><button>Add to Cart</button></div>
-
-<div class="card"><img src="./../images/vital vitamin c serum.png"><h3>Vitamin C Serum</h3><p class="price">₹499</p><button>Add to Cart</button></div>
-
-<div class="card"><img src="./../images/moisturizing.png"><h3>Moisturizer</h3><p class="price">₹299</p><button>Add to Cart</button></div>
-
-<div class="card"><img src="./../images/premium.png"><h3>Sunscreen SPF 50</h3><p class="price">₹399</p><button>Add to Cart</button></div>
-
-<div class="card"><img src="./../images/nightcream.png"><h3>Night Cream</h3><p class="price">₹450</p><button>Add to Cart</button></div>
-
-<div class="card"><img src="./../images/facescrup.png"><h3>Face Scrub</h3><p class="price">₹220</p><button>Add to Cart</button></div>
-
-<div class="card"><img src="./../images/UnderEyeCream.png"><h3>Under Eye Cream</h3><p class="price">₹350</p><button>Add to Cart</button></div>
-
-<div class="card"><img src="./../images/facetoner.png"><h3>Face Toner</h3><p class="price">₹280</p><button>Add to Cart</button></div>
-
-<div class="card"><img src="./../images/charcoalmask.png"><h3>Charcoal Mask</h3><p class="price">₹320</p><button>Add to Cart</button></div>
-
-<div class="card"><img src="./../images/claymask.png"><h3>Clay Mask</h3><p class="price">₹340</p><button>Add to Cart</button></div>
-
-<div class="card"><img src="./../images/hydratingserum.png"><h3>Hydrating Serum</h3><p class="price">₹410</p><button>Add to Cart</button></div>
-
-<div class="card"><img src="./../images/rosewater.png"><h3>Rose Water</h3><p class="price">₹150</p><button>Add to Cart</button></div>
-
-<div class="card"><img src="./../images/faceoil.png"><h3>Face Oil</h3><p class="price">₹380</p><button>Add to Cart</button></div>
-
-<div class="card"><img src="./../images/AntiAgingCream.png"><h3>Anti Aging Cream</h3><p class="price">₹520</p><button>Add to Cart</button></div>
-
-<div class="card"><img src="./../images/brighteningcream.png"><h3>Brightening Cream</h3><p class="price">₹430</p><button>Add to Cart</button></div>
-
-<div class="card"><img src="./../images/facemist.png"><h3>Face Mist</h3><p class="price">₹260</p><button>Add to Cart</button></div>
-
-<div class="card"><img src="./../images/LipBalm.png"><h3>Lip Balm</h3><p class="price">₹120</p><button>Add to Cart</button></div>
-
-<div class="card"><img src="./../images/HandCream.png"><h3>Hand Cream</h3><p class="price">₹180</p><button>Add to Cart</button></div>
-
-<div class="card"><img src="./../images/BodyLotion1.png"><h3>Body Lotion</h3><p class="price">₹350</p><button>Add to Cart</button></div>
-
-<div class="card"><img src="./../images/FacePack.png"><h3>Face Pack</h3><p class="price">₹300</p><button>Add to Cart</button></div>
-
-<div class="card"><img src="./../images/GlowCream.png"><h3>Glow Cream</h3><p class="price">₹420</p><button>Add to Cart</button></div>
-
-<div class="card"><img src="./../images/AcneGel.png"><h3>Acne Gel</h3><p class="price">₹290</p><button>Add to Cart</button></div>
-
-<div class="card"><img src="./../images/WhiteningCream.png"><h3>Whitening Cream</h3><p class="price">₹460</p><button>Add to Cart</button></div>
-
+<input 
+type="text" 
+id="searchInput" 
+placeholder="🔍 Search skincare products..." 
+onkeyup="searchProduct()">
 
 </div>
+
+<div class="product-container">
+
+<div class="product-card">
+<span class="discount" id="d1"></span>
+<img id="img1">
+<div id="p1"></div>
+</div>
+
+<div class="product-card">
+<span class="discount" id="d2"></span>
+<img id="img2">
+<div id="p2"></div>
+</div>
+
+<div class="product-card">
+<span class="discount" id="d3"></span>
+<img id="img3">
+<div id="p3"></div>
+</div>
+
+<div class="product-card">
+<span class="discount" id="d4"></span>
+<img id="img4">
+<div id="p4"></div>
+</div>
+
+<div class="product-card">
+<span class="discount" id="d5"></span>
+<img id="img5">
+<div id="p5"></div>
+</div>
+
+<div class="product-card">
+<span class="discount" id="d6"></span>
+<img id="img6">
+<div id="p6"></div>
+</div>
+
+
+
+<div class="product-card">
+<span class="discount" id="d7"></span>
+<img id="img7">
+<div id="p7"></div>
+</div>
+
+<div class="product-card">
+<span class="discount" id="d8"></span>
+<img id="img8">
+<div id="p8"></div>
+</div>
+
+<div class="product-card">
+<span class="discount" id="d9"></span>
+<img id="img9">
+<div id="p9"></div>
+</div>
+
+<div class="product-card">
+<span class="discount" id="d10"></span>
+<img id="img10">
+<div id="p10"></div>
+</div>
+
+<div class="product-card">
+<span class="discount" id="d11"></span>
+<img id="img11">
+<div id="p11"></div>
+</div>
+
+<div class="product-card">
+<span class="discount" id="d12"></span>
+<img id="img12">
+<div id="p12"></div>
+</div>
+
+
+
+</div>
+
+<script src="../js/product.js"></script>
+
 <script src="./../js/index.js"></script>
 
 <script src="./../js/product.js"></script>

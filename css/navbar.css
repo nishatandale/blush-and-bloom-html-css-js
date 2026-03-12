@@ -13,16 +13,11 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: #d63384;
-    
-}
-body{
-    margin:0;
+
 }
 
-.navbar{
-    display:flex;
-    align-items:center;
-    padding:0;
+body {
+    margin: 0;
 }
 
 .navbar {
@@ -31,45 +26,45 @@ body{
     align-items: center;
     padding: 15px 50px;
     background-color: #f8c8dc;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
-.logo{
-    width:50px;
-    height:50px;
-    border-radius:50%;
-    object-fit:cover;
-    margin-left:0.001cm;
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 0.001cm;
 }
 
-.nav-left{
-    display:flex;
-    align-items:center;
-    gap:10px;
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-.logo{
-    width:50px;
-    height:50px;
-    border-radius:50%;
-    object-fit:cover;
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
-.brand{
-    font-family:serif;
-    color:#d63384;
+.brand {
+    font-family: serif;
+    color: #d63384;
 }
 
-.nav-links{
-    list-style:none;
-    display:flex;
-    gap:25px;
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
 }
 
-.nav-links a{
-    text-decoration:none;
-    color:black;
-    font-weight:500;
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
 }
 
 
@@ -93,6 +88,7 @@ body{
 .nav-links a:hover {
     color: #d63384;
 }
+
 
 .auth-buttons {
     display: flex;
@@ -145,3 +141,4 @@ body{
 .hero {
     flex: 1;
 }
+
