@@ -9,12 +9,8 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-<<<<<<< HEAD
-   
-=======
     gap: 50px;
     margin-top: 10px;
->>>>>>> 820416f120c61b78b3811654382e2c7c4dcb64ff
 }
 
 .footer-col {
