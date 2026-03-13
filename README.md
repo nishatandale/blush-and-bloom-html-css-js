@@ -58,13 +58,16 @@ The objective of this project is to create a responsive and interactive skincare
 Academic Mini Project – Web Development
 
 ## 👩‍💻 Contributors
-<p align ="left">
 
-<img src="images/saee.jpg" width="50" height="50" style="border-radius:50%;">
-<img src="images/rutu.jpg" width="50" height="50" style="border-radius:50%;">
-<img src="images/diksha.jpg" width="50" height="50" style="border-radius:50%;">
-<img src="images/nisha.jpg" width="50" height="50" style="border-radius:50%;">
-<img src="images/namrata.jpg" width="50" height="50" style="border-radius:50%;">
-<img src="images/supriya.jpg" width="50" height="50" style="border-radius:50%;">
+<p align="center">
+
+<img src="images/saee.jpg" width="90" height="90" style="border-radius:50%; object-fit:cover;">
+<img src="images/rutu.jpg" width="90" height="90" style="border-radius:50%; object-fit:cover;">
+<img src="images/diksha.jpg" width="90" height="90" style="border-radius:50%; object-fit:cover;">
+<img src="images/namrata.jpg" width="90" height="90" style="border-radius:50%; object-fit:cover;">
+<img src="images/nisha.jpg" width="90" height="90" style="border-radius:50%; object-fit:cover;">
+<img src="images/supriya.jpg" width="90" height="90" style="border-radius:50%; object-fit:cover;">
+<img src="images/vaishnavi.jpg" width="90" height="90" style="border-radius:50%; object-fit:cover;">
+<img src="images/nisha.jpg" width="90" height="90" style="border-radius:50%; object-fit:cover;">
 
 </p>
