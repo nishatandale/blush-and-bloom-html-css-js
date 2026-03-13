@@ -11,12 +11,10 @@ body {
     height: 400px;
     flex-wrap: wrap;
     display: flex;
-    width: 650px;
+    width: 750px;
     margin: auto;
     background: white;
-    padding: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 
@@ -24,10 +22,7 @@ body {
 
 .sub-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 10px;
-}
+     
 }
 
 .left {
@@ -36,6 +31,7 @@ body {
 
 .right {
     margin-right: 20px;
+    padding-left: 60px;
 }
 
 input,
@@ -79,6 +75,6 @@ button:hover {
     color: gold;
 }
 
-.reaction{
+.reaction {
     margin-left: 20px;
 }
