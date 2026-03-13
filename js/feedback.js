@@ -15,11 +15,7 @@ stars.forEach(star => {
             stars[i].classList.add("active");
         }
 
-        if(index==1) reaction.textContent="😠";
-        if(index==1) reaction.textContent="😞";
-        if(index==2) reaction.textContent="😐";
-        if(index==3) reaction.textContent="😊";
-        if(index==4) reaction.textContent="😍";
+        
 
     });
  
