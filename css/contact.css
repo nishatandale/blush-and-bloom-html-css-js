@@ -1,5 +1,5 @@
 .container {
-    height: 800px;
+    height:450px;
     flex-wrap: wrap;
     display: flex;
     width: 800px;
@@ -69,6 +69,5 @@ textarea {
 @media (max-width:768px) {
     .container {
         width:700px;
-        height: fit-content;
     }
 }
